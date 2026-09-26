@@ -1,0 +1,35 @@
+# Generated training data (~256GB) — regenerate via:
+#   data/download_datasets.py -> data/clean_text.py -> data/prepare_splits.py -> tokenizer/tokenize_corpus.py
+data/raw/
+data/cleaned/
+data/tokenized/
+data/model-a/
+data/model-b/
+data/model-c/
+
+# Trained model checkpoints (~20GB, individual files exceed GitHub's 100MB limit) —
+# regenerate via training/train.py / training/train_instruct.py, or host separately (e.g. HF Hub)
+checkpoints/
+
+# Quantized deployment models (~600MB) — regenerate via deployment/quantize.py
+deployment/model_int8/
+
+# TensorBoard event logs + auto-captured training screenshots — not source, and
+# large in aggregate; a curated subset of the important screenshots already
+# lives in community_article/screenshots/ (tracked, part of the published article)
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tool/session-local state (not project content)
+.claude/
+.gradio/
+.gstack/

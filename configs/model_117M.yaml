@@ -1,0 +1,12 @@
+vocab_size: 32000
+context_length: 512
+n_layers: 12
+n_heads: 12
+d_model: 768
+d_ff: 3072
+dropout: 0.1
+batch_size: 24
+learning_rate: 3e-4
+warmup_steps: 2000
+max_steps: 133500
+checkpoint_every: 1000

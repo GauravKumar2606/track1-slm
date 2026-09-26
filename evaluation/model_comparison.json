@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is Python?",
+    "model_a": "What is Python?",
+    "model_a-instruct": "What is Python? This is a language that is designed to be used in a variety of applications, including real-time data processing and communication. It has some similarities with Node!js which allows you to send HTTP requests like this: ```python import n",
+    "model_b": "What is Python? It's a simple, intuitive process.",
+    "model_c": "What is Python? Python, for example - not a module to use /// If the argument should've been \"created\", then we can't create the . // However, if the arguments cannot have passed in any way, they will be created. Python"
+  },
+  {
+    "question": "Write a C# for loop",
+    "model_a": "Write a C# for loop, and you can create the default to write, but with this project it now has about 100 lines of code.",
+    "model_a-instruct": "Write a C# for loop. Here is an example of how you can implement the `cpp-nn` macro: #include using namespace std; int main() { int cp_mode = \"movie\"; int xml_decode",
+    "model_b": "Write a C# for loop ### Response: $$ A_1 = 5",
+    "model_c": "Write a C# for loop. public static void Start() { Console.WriteLine(\"Started\"); } /// Checks if the loop is already started. (see Debugger) private static bool IsInitialized { get; set; } ="
+  },
+  {
+    "question": "What is Machine Learning?",
+    "model_a": "What is Machine Learning?",
+    "model_a-instruct": "What is Machine Learning? The process of machine learning involves the exploration and evaluation of human behavior, such as problem-solving capabilities, decision trees, and general relativity. This requires understanding the various layers of cognitive function that can be used to model this behavior. A machine",
+    "model_b": "What is Machine Learning?",
+    "model_c": "What is Machine Learning? public static string Machine Learning = \"\"; /// A list of machine learning algorithms to train. This allows for a dataset collection that includes the following features: classifier, trainingData, algorithm1 }; private List>> ListSelencersTo"
+  },
+  {
+    "question": "What is AGI?",
+    "model_a": "What is AGI?",
+    "model_a-instruct": "What is AGI? A. The main principles of Caffeine and its associated mechanisms for regulating metabolism have been explained through various molecular mechanisms, including: 1. Regulation of metabolic pathways: These pathways are involved in the regulation of metabolic processes within a organism's cells, influencing",
+    "model_b": "What is AGI? (G) \"Currently, my experience with ACP is that you have a fairly long process of development time and then some to work on. If it would be easier for me to do it in time, I will just be working at",
+    "model_c": "What is AGI? What is the purpose of this search result?\"); } [TestMethod] public void GetBroadcaster_Should_ReturnsValidData([NotNullWhen(false))] string data) {"
+  },
+  {
+    "question": "Explain gravity",
+    "model_a": "Explain gravity and the impact of an extreme event.",
+    "model_a-instruct": "Explain gravity as the relationship between the motion of a planet and its gravitational pull. When a planet is at rest, it pulls more easily off than on Earth to reach its target orbital (the center of all surface elements), which results in an increase in force",
+    "model_b": "Explain gravity.",
+    "model_c": "Explain gravity and move the player to it. /// public static float GetVelocity(double v) { return GetRadius(v); } #endregion }"
+  },
+  {
+    "question": "What is the capital of France?",
+    "model_a": "What is the capital of France? What are our foreign policy objectives, which we know to be hostile or ineffective?\"",
+    "model_a-instruct": "What is the capital of France? The city where he was born, also known as Paris. It's a country located in France that lies between the French and English lands. The name may indicate his birthplace or personal location, but it can still be used for an additional purpose",
+    "model_b": "What is the capital of France? The",
+    "model_c": "What is the capital of France?"
+  },
+  {
+    "question": "Tell me a short story",
+    "model_a": "Tell me a short story of this game. In the book, there are two main characters who use their character's skills in order to accomplish various goals and objectives, but each of them uses its own abilities as well:",
+    "model_a-instruct": "Tell me a short story about a family who have survived the long winter and need to rebuild their home in order to return to their hometown. The house was built by an architect named Jethro A. Tzu, who had lived for over two decades after being in",
+    "model_b": "Tell me a short story about a guy who lived all this time in America. The man made it to New York, and he got the job back later that same day I had an interview with him:",
+    "model_c": "Tell me a short story for the app developer guide.\")] public partial class AndroidAppBuilder { const string ApplicationName = \"roidapp\"; using (var context = new AndroidScriptContext()) { var appUri = GetApplicationUri(App"
+  },
+  {
+    "question": "What is a neural network?",
+    "model_a": "What is a neural network? The brain has been shown to be able to do so for many years now in the same way that MRI can, in the very limited sense that it does.",
+    "model_a-instruct": "What is a neural network? This question asks about learning behavior in the brain and how it affects our cognitive processes. The question focuses on the relationship between learning rate, memory, and self-awareness. Here are some ways to answer this question: 1. Learning rate: One step",
+    "model_b": "What is a neural network?",
+    "model_c": "What is a neural network? /// public static class Dynagram { #region Fields /// Gets the name of the neuron. /// /// The neuron to be searched. /// public string Name; /// /// Gets or sets a"
+  }
+]

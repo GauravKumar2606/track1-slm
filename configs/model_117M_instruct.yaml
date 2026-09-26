@@ -1,0 +1,24 @@
+# Fine-tuning config for Model A-Instruct: same architecture as
+# configs/model_117M.yaml (weights loaded from Model A's checkpoint via
+# training/train_instruct.py's --init-from), fine-tuning-appropriate
+# optimization hyperparameters — same shape as configs/model_117M_finetune_c.yaml.
+#
+# max_steps=20000 covers ~27% of one epoch over the real ~1.8M-example
+# train set (480,000 of 1,801,164 examples) — NOT a full pass. Chosen
+# deliberately short: instruction fine-tunes conventionally use a budget
+# far smaller than pretraining, and full multi-epoch coverage over exact
+# repeated Q&A pairs risks overfitting without necessarily improving
+# instruction-following behavior further. ~1.6 hours at this GPU's
+# benchmarked ~42,451 tok/s (training/benchmark_throughput.py).
+vocab_size: 32000
+context_length: 512
+n_layers: 12
+n_heads: 12
+d_model: 768
+d_ff: 3072
+dropout: 0.1
+batch_size: 24
+learning_rate: 3e-5
+warmup_steps: 200
+max_steps: 20000
+checkpoint_every: 500

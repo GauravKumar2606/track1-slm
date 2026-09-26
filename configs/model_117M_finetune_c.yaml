@@ -1,0 +1,23 @@
+# Fine-tuning config for Model C: same architecture as configs/model_117M.yaml
+# (weights are loaded from Model A's checkpoint via train.py's --init-from),
+# but with fine-tuning-appropriate optimization hyperparameters — lower peak
+# LR, shorter warmup, and a much smaller step budget sized to the C#-only
+# corpus rather than the full ~1.64B-token pretraining corpus.
+#
+# max_steps=20000 is a starting estimate (~245M tokens at batch_size=24 x
+# context_length=512) — revisit once data/tokenized/model-c/train.bin's
+# actual token count is known: for a small C#-only corpus, several epochs
+# over it is normal for fine-tuning, but max_steps should not be increased
+# so far that it re-trains as long as Model A/B's from-scratch runs.
+vocab_size: 32000
+context_length: 512
+n_layers: 12
+n_heads: 12
+d_model: 768
+d_ff: 3072
+dropout: 0.1
+batch_size: 24
+learning_rate: 3e-5
+warmup_steps: 200
+max_steps: 20000
+checkpoint_every: 500
